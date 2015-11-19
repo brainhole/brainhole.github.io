@@ -80,7 +80,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    # provider : disqus
+    provider : duoshuo
     # disqus :
     #   short_name : brainhole
     # livefyre :
@@ -100,7 +100,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #
   analytics :
-    provider : google
+    provider : mixpanel
     gauges :
         site_id : 'SITE ID'
     google :
@@ -108,7 +108,7 @@ JB :
     getclicky :
       site_id :
     mixpanel :
-        token : '_MIXPANEL_TOKEN_'
+        token : 'cb7a1f459e22747707c95b42582f2b25'
     piwik :
         baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
         idsite : '1'                   # the id of the site on Piwik

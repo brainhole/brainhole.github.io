@@ -1,46 +1,41 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: 脑洞者!
+tagline: 脑洞者
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+#### 欢迎来到脑洞者的空间
+-------
+这里是脑洞者的博客。博客会不定期分享一些有脑洞的文章，欢迎扫描下面的微信二维码关注我们。
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
-## Update Author Attributes
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+#### 目标读者
+--------
+内容会以科幻和想象为主，也可能会记录一些现实中脑洞比较大的事情。
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+* 我们的目标阅读对象是所有的脑洞爱好者， 科幻迷。
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+* 除此之外，我们还特别推荐小孩子看，小孩子处于智力发育期，想象力有无限的发展空间，拓展他们的想象力会让他们一辈子收益。
 
-    $ rm -rf _posts/core-samples
 
-Here's a sample "posts list".
+#### 微信订阅号
+-----
 
+我们有微信订阅号，订阅号将同步更新最新的文章，欢迎扫描二维码关注"脑洞者"
+
+<img src="{{ site.url }}/assets/img/qrcode_for_naodongzhe.jpg" width="200" height="200" title="微信订阅号-脑洞者" />	
+
+
+#### 关于转载
+-----
+本空间内容除非特别声明，均为原创。脑洞者对原创内容保留所有权利，转载请联系作者。
+
+#### 历史文章
+----
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
